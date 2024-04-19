@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMDb Movie Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Search</h1>
+    <iframe src="https://giphy.com/embed/g1nOYYV0AHY3K" width="240" height="130" frameBorder="0"></iframe>
+    <p>Search for any movie title! If you find a movie you like, add it to your favorites! Enter your search in the form below to begin.</p>
+    <input type="text" id="search-input" placeholder="Search for movies...">
+    <button id="search-button">Search</button>
+    <button id="favorites-button">My Favorites</button>
+  </header>
+  <div id="movies-container"></div> <!--Container for Movie search results-->
+  <div id="favorites-container" style="display: none;"></div> <!-- Container for favorite movies -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
